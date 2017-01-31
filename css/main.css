@@ -88,7 +88,7 @@ body {
     }
 }
 
-img {
+.background-image {
     position: fixed;
     height:560px;
     padding-left:80px;
