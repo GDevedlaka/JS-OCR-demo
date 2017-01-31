@@ -88,6 +88,16 @@ body {
     }
 }
 
+img {
+    position: fixed;
+    height:560px;
+    padding-left:80px;
+    padding-top:20px;
+    width:470px;
+}
+
+
+
 body.step1 #step2, body.step1 #step3 {
     display: none;
 }
