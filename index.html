@@ -18,7 +18,8 @@
 </head>
 <body class="step1">
 
-
+  <!-- <script src='https://code.responsivevoice.org/responsivevoice.js'></script>
+  <input onclick='responsiveVoice.speak("Hello World");' type='button' value='🔊 Play' /> -->
 
   <div class="background-image">
     <style>
@@ -43,6 +44,14 @@
             <figure class="not-ready">
                 <video autoplay></video>
             </figure>
+
+            <script type="text/javascript">
+              var statements = ["Thanks for scanning", "Nice card, thanks for scanning", "Thanks!", "", ""]
+            </script>
+
+<script type="text/javascript">
+  console.log(statements.random());
+</script>
 
             <button class="btn btn-lg btn-success" disabled id="takePicture">Take a picture</button>
         </div>
